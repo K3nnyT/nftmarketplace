@@ -1,0 +1,124 @@
+.navbar {
+    background-color: #111;
+    color: white;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .navbar__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .navbar__logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar__toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .navbar__menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .navbar__item {
+    position: relative;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar__item:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar__dropdown {
+    display: none;
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+    background-color: #222;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    min-width: 150px;
+    z-index: 999;
+  }
+  
+  .navbar__dropdown a {
+    display: block;
+    padding: 0.75rem 1rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar__dropdown a:hover {
+    background-color: #333;
+  }
+  
+  .group:hover .navbar__dropdown {
+    display: block;
+  }
+  
+  .navbar__wallet-button {
+    background-color: #ff2d55;
+    border: none;
+    color: white;
+    padding: 0.5rem 1.2rem;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar__wallet-button:hover {
+    background-color: #e0244a;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .navbar__toggle {
+      display: block;
+    }
+  
+    .navbar__menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background-color: #111;
+      margin-top: 1rem;
+    }
+  
+    .navbar__menu.open {
+      display: flex;
+    }
+  
+    .navbar__item,
+    .navbar__wallet-button {
+      padding: 1rem;
+      text-align: left;
+      width: 100%;
+    }
+  
+    .navbar__dropdown {
+      position: static;
+      box-shadow: none;
+      background-color: #1a1a1a;
+    }
+  }
+  
