@@ -9,7 +9,7 @@ import ClaimNameBanner from '../../../images/claim-name-banner.png'
 import ClaimNameImage from '../../../images/claim-name.svg'
 import infoIcon from '../../../images/infoIcon.png'
 import Chest from '../../../images/names/chest.png'
-import CreateImg from '../../../images/names/create.png'
+import CreateImg from '../../../images/names/logo.png'
 import GovernanceImg from '../../../images/names/governance.png'
 import LandmarkImg from '../../../images/names/landmark.png'
 import OwnSpaceImg from '../../../images/names/own-space.png'
@@ -196,7 +196,7 @@ const ClaimNamePage = (props: Props) => {
         description: t('names_page.why.unlock.description', {
           link: (
             <a
-              href="https://decentraland.org/blog/about-decentraland/decentraland-worlds-your-own-virtual-space"
+              href="https://www.therelic.art"
               className={styles.learnMore}
             >
               {t('global.learn_more')}

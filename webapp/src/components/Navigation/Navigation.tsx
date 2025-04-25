@@ -8,7 +8,6 @@ import { AssetType } from '../../modules/asset/types'
 import { locations } from '../../modules/routing/locations'
 import { SortBy } from '../../modules/routing/types'
 import { VendorName } from '../../modules/vendor'
-import { Section } from '../../modules/vendor/decentraland'
 import * as decentraland from '../../modules/vendor/decentraland'
 import * as events from '../../utils/events'
 import { AssetStatusFilter } from '../../utils/filters'
@@ -65,17 +64,8 @@ const Navigation = (props: Props) => {
           <Link to={locations.browse(browseDefaultOptions)} onClick={onClearFilters}>
             <Tabs.Tab active={activeTab === NavigationTab.COLLECTIBLES}>{t('navigation.collectibles')}</Tabs.Tab>
           </Link>
-          <Link to={locations.lands({ section: Section.LAND, assetType: AssetType.NFT })}>
-            <Tabs.Tab active={activeTab === NavigationTab.LANDS}>{t('navigation.land')}</Tabs.Tab>
-          </Link>
-          <Link to={locations.claimName()}>
-            <Tabs.Tab active={activeTab === NavigationTab.NAMES}>{t('navigation.names')}</Tabs.Tab>
-          </Link>
           <Link to={locations.defaultCurrentAccount()}>
             <Tabs.Tab active={activeTab === NavigationTab.MY_STORE}>{t('navigation.my_assets')}</Tabs.Tab>
-          </Link>
-          <Link to={locations.lists()}>
-            <Tabs.Tab active={activeTab === NavigationTab.MY_LISTS}>{t('navigation.my_lists')}</Tabs.Tab>
           </Link>
           <Mobile>
             <Link to={locations.activity()}>

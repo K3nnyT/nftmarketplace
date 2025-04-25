@@ -16,7 +16,6 @@ import { AnalyticsVolumeDayData } from '../AnalyticsVolumeDayData'
 import { ListsLaunchModal } from '../Modals/ListsLaunchModal'
 import { NavigationTab } from '../Navigation/Navigation.types'
 import { PageLayout } from '../PageLayout'
-import { RankingsTable } from '../RankingsTable'
 import { RecentlySoldTable } from '../RecentlySoldTable'
 import { useIntersectionObserver } from './hooks'
 import { Slideshow } from './Slideshow'
@@ -34,9 +33,7 @@ const HomePage = (props: Props) => {
     () => ({
       [View.HOME_TRENDING_ITEMS]: Section.WEARABLES_TRENDING,
       [View.HOME_NEW_ITEMS]: Section.WEARABLES,
-      [View.HOME_WEARABLES]: Section.WEARABLES,
-      [View.HOME_LAND]: Section.LAND,
-      [View.HOME_ENS]: Section.ENS
+      [View.HOME_WEARABLES]: Section.WEARABLES
     }),
     []
   )
@@ -59,11 +56,9 @@ const HomePage = (props: Props) => {
   const assetTypes: Partial<Record<View, AssetType>> = useMemo(
     () => ({
       [View.HOME_TRENDING_ITEMS]: AssetType.ITEM,
-      [View.HOME_NEW_ITEMS]: AssetType.ITEM,
       [View.HOME_SOLD_ITEMS]: AssetType.ITEM,
       [View.HOME_WEARABLES]: AssetType.NFT,
-      [View.HOME_LAND]: AssetType.NFT,
-      [View.HOME_ENS]: AssetType.NFT
+
     }),
     []
   )
@@ -73,8 +68,6 @@ const HomePage = (props: Props) => {
       [View.HOME_NEW_ITEMS]: SortBy.NEWEST,
       [View.HOME_SOLD_ITEMS]: SortBy.RECENTLY_SOLD,
       [View.HOME_WEARABLES]: SortBy.RECENTLY_LISTED,
-      [View.HOME_LAND]: SortBy.RECENTLY_LISTED,
-      [View.HOME_ENS]: SortBy.RECENTLY_LISTED
     }),
     []
   )
@@ -227,7 +220,6 @@ const HomePage = (props: Props) => {
       <Page className="HomePage">
         <AnalyticsVolumeDayData />
         {firstViewsSection.map(renderSlideshow)}
-        <RankingsTable />
         {secondViewsSection.map(renderSlideshow)}
         <RecentlySoldTable />
       </Page>

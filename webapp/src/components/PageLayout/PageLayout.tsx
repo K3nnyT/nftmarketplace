@@ -12,7 +12,7 @@ const PageLayout = ({ children, activeTab, className, hideNavigation }: Props) =
       <Navbar className={styles.navbar} />
       {!hideNavigation && <Navigation activeTab={activeTab} />}
       <div className={styles.content}>{children}</div>
-      <Footer className={styles.footer} />
+      {/* <Footer className={styles.footer} /> */}
     </div>
   )
 }

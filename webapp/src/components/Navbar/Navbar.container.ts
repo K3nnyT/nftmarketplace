@@ -4,7 +4,7 @@ import { isPending } from 'decentraland-dapps/dist/modules/transaction/utils'
 import { getCurrentIdentity } from '../../modules/identity/selectors'
 import { RootState } from '../../modules/reducer'
 import { getTransactions } from '../../modules/transaction/selectors'
-import Navbar from './Navbar'
+import Navbar from './NavbarRelic.tsx'
 import { MapStateProps } from './Navbar.types'
 
 const mapState = (state: RootState): MapStateProps => ({

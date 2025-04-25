@@ -3,7 +3,7 @@ import { openBuyManaWithFiatModalRequest, OpenBuyManaWithFiatModalRequestAction 
 import { clearFilters, ClearFiltersAction } from '../../modules/routing/actions'
 
 export enum NavigationTab {
-  OVERVIEW = 'overview',
+  OVERVIEW = 'Home',
   CAMPAIGN_BROWSER = 'campaign-browser',
   LANDS = 'lands',
   NAMES = 'names',

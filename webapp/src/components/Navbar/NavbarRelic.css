@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #111;
+    background-color: #161518;
     color: white;
     padding: 1rem 2rem;
     position: sticky;
@@ -10,10 +10,11 @@
   
   .navbar__container {
     display: flex;
+    align-items: left;
     justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
-  }
+    position: relative;
+  }  
   
   .navbar__logo {
     font-size: 1.5rem;
@@ -33,7 +34,7 @@
   
   .navbar__menu {
     display: flex;
-    align-items: center;
+    align-items: left;
     gap: 2rem;
   }
   
@@ -55,7 +56,7 @@
     left: 0;
     background-color: #222;
     border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 8px #0c0c0c;
     min-width: 150px;
     z-index: 999;
   }
@@ -76,7 +77,7 @@
   }
   
   .navbar__wallet-button {
-    background-color: #ff2d55;
+    background-color: #1973C0;
     border: none;
     color: white;
     padding: 0.5rem 1.2rem;
@@ -87,8 +88,15 @@
   }
   
   .navbar__wallet-button:hover {
-    background-color: #e0244a;
+    background-color: #0e395f;
   }
+  .navbar__wallet-wrapper {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-left: auto; /* Push to the far right */
+    }
+    
   
   /* Responsive Styles */
   @media (max-width: 768px) {
@@ -100,7 +108,7 @@
       display: none;
       flex-direction: column;
       width: 100%;
-      background-color: #111;
+      background-color: #0c0c0c;
       margin-top: 1rem;
     }
   
@@ -118,7 +126,23 @@
     .navbar__dropdown {
       position: static;
       box-shadow: none;
-      background-color: #1a1a1a;
+      background-color: #0c0c0c;
     }
+    .navbar__logo-wrapper {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .navbar__logo-link {
+      display: inline-block;
+    }
+    
+    .navbar__logo-img {
+      max-width: 200px;
+      height: auto;
+    }
+    
   }
   

@@ -96,26 +96,26 @@
     "dissolved": "This Estate has been dissolved"
   },
   "vendors": {
-    "decentraland": "Decentraland",
+    "decentraland": "Relic",
     "super_rare": "SuperRare",
     "makers_place": "MakersPlace",
     "known_origin": "KnownOrigin"
   },
   "navigation": {
-    "overview": "Overview",
+    "overview": "Home",
     "mvmf": "Metaverse Music Festival",
     "land": "Land",
     "names": "NAMEs",
-    "collectibles": "Collectibles",
+    "collectibles": "Relics",
     "partners": "Partners",
-    "my_assets": "My Assets",
+    "my_assets": "My Collection",
     "my_lists": "My Lists",
     "my_bids": "My Bids",
     "activity": "Activity",
     "buy_mana_with_fiat": "Buy MANA"
   },
   "user_menu": {
-    "my_assets": "My Assets",
+    "my_assets": "My Collection",
     "my_lists": "My Lists"
   },
   "menu": {
@@ -155,7 +155,7 @@
     "ens": "Names",
     "editions": "Editions",
     "tokens": "Tokens",
-    "decentraland": "Decentraland",
+    "decentraland": "Relic",
     "super_rare": "SuperRare",
     "known_origin": "KnownOrigin",
     "makers_place": "MakersPlace",
@@ -214,7 +214,7 @@
     "analytics": {
       "volume": {
         "title": "Marketplace Volume",
-        "subtitle": "Includes Land, Wearables, Emotes and Names",
+        "subtitle": "Includes all NFT sales and mints",
         "total_sales": "Total sales",
         "total_sales_tooltip": "Number of NFTs sold, including primary and secondary markets.",
         "total_volume": "Total volume",
@@ -301,18 +301,18 @@
         "price": "Price"
       }
     },
-    "title": "Decentraland Marketplace",
+    "title": "Relic Marketplace",
     "subtitle": "Welcome to the virtual world's one-stop-shop for the very best digital assets.",
     "get_started": "Start Browsing",
-    "home_trending_items": "Trending items",
-    "home_trending_items_subtitle": "Bestselling Items over the last 24hs 🔥",
-    "home_trending_items_explore_all": "Explore all",
-    "home_trending_items_empty_message": "We are having troubles fetching the latest trending wearables.{br}{try_again_link} or {explore_all_link}",
+    "home_trending_items": "Trending",
+    "home_trending_items_subtitle": "Bestselling Relics over the last 24hs",
+    "home_trending_items_explore_all": "Explore more Relics",
+    "home_trending_items_empty_message": "We are having troubles fetching the latest trending NFTs.{br}{try_again_link} or {explore_all_link}",
     "home_trending_items_try_again": "Try again",
-    "home_trending_items_explore_all_wearables": "Explore all wearables",
+    "home_trending_items_explore_all_wearables": "Explore all NFTs",
     "home_recently_listed_items_subtitle": "Items being resold",
     "home_latest_sales_items_subtitle": "Items being minted",
-    "home_new_items": "Newest items",
+    "home_new_items": "Newest Relics",
     "home_sold_items": "Latest sales",
     "home_wearables": "Latest listings",
     "home_land": "Parcels and Estates",
@@ -344,7 +344,7 @@
     "unsaved_changes": "You will lose any unsaved changes, are you sure you want to leave?"
   },
   "external_link_modal": {
-    "header": "You are exiting Decentraland",
+    "header": "You are exiting Relic",
     "before_link": "By clicking PROCEED, you will be redirected to:",
     "after_link": "Please check twice that the link has nothing suspicious on it to avoid being the victim of an attack."
   },
@@ -548,9 +548,9 @@
       "see_listing": "See listing",
       "sell": "Sell",
       "transfer": "Transfer",
-      "leaving_decentraland": "Leaving Decentraland",
-      "leaving_decentraland_description": "You can't publish or update {vendor} assets to the Decentraland Marketplace yet. Do you want to proceed to {vendor_link} to publish it there?",
-      "leaving_decentraland_disclaimer": "Your NFTs will still be listed in the Decentraland Marketplace",
+      "leaving_decentraland": "Leaving Relic",
+      "leaving_decentraland_description": "You can't publish or update {vendor} assets to the Relic Marketplace yet. Do you want to proceed to {vendor_link} to publish it there?",
+      "leaving_decentraland_disclaimer": "Your NFTs will still be listed in the Relic Marketplace",
       "edit_price": "Edit price",
       "change_beneficiary": "Change beneficiary",
       "mint_item": "Mint item",
@@ -882,11 +882,11 @@
       "slow": "Slow ≈ 1m"
     },
     "asset_description": {
-      "ens": "Decentraland NAMEs",
-      "emotes": "Decentraland Emotes",
-      "wearables": "Decentraland Wearables",
-      "land": "Decentraland Lands",
-      "other": "Decentraland Collectibles"
+      "ens": "Relic NAMEs",
+      "emotes": "Relic Emotes",
+      "wearables": "Relic Wearables",
+      "land": "Relic Lands",
+      "other": "Relic Collectibles"
     },
     "tooltip": {
       "cross_chain": "Estimated fee includes the network cost and the cross chain purchase fee that you have to pay directly with your wallet.",
@@ -1485,7 +1485,7 @@
   },
   "claim_your_own_name": {
     "title": "CLAIM YOUR OWN NAME",
-    "text": "In this section you can find NAMEs that are listed for sale by Decentraland users. Alternatively, you can claim your own unique NAME from the Builder section for a fixed price of {mana}.",
+    "text": "In this section you can find NAMEs that are listed for sale by Relic users. Alternatively, you can claim your own unique NAME from the Builder section for a fixed price of {mana}.",
     "btn": "Claim your NAME"
   },
   "create_or_edit_list_modal": {
@@ -1541,7 +1541,7 @@
     "copy_link": "copy link",
     "share_on_twitter": "Share on twitter",
     "copied": "Copied",
-    "twitter_message": "I just created a new personalized List on the @Decentraland Marketplace 🫶\nFeel free to check it out!\n📍"
+    "twitter_message": "I just created a new personalized List on the @Relic Marketplace 🫶\nFeel free to check it out!\n📍"
   },
   "lists_ftu": {
     "title": "Introducing Marketplace Lists",
@@ -1583,7 +1583,7 @@
   },
   "smart_wearables_ftu_modal": {
     "title": "Smart Wearables are now live! 🟢",
-    "description": "<b>Unlock the world of Portable Experiences you can own in the form of Smart Wearables.</b> Experience Decentraland like never before with Wearables that give you new abilities (like flying!) or add an extra layer of content, visible only to you, overlaid on Decentraland scenes.",
+    "description": "<b>Unlock the world of Portable Experiences you can own in the form of Smart Wearables.</b> Experience Relic like never before with Wearables that give you new abilities (like flying!) or add an extra layer of content, visible only to you, overlaid on Relic scenes.",
     "explore_collectibles": "Browse Smart Wearables"
   },
   "atlas_updated_warning": {
@@ -1591,8 +1591,8 @@
     "fingerprint_missmatch": "The information of this LAND may not be updated. Please refresh the page to get the latest information. If the problem persists, please contact our support team."
   },
   "names_page": {
-    "title": "Claim your Decentraland NAME",
-    "subtitle": "Activate the full potential of Decentraland citizenship with a unique NAME, Voting Power, & your own World!",
+    "title": "Claim your Relic NAME",
+    "subtitle": "Activate the full potential of Relic citizenship with a unique NAME, Voting Power, & your own World!",
     "claim_a_name": "Claim NAME",
     "browse_names_being_resold": "Browse NAMEs being resold",
     "manage_your_names": "Manage your NAMEs",
@@ -1652,7 +1652,7 @@
       },
       "governance": {
         "title": "Participate in Governance",
-        "description": "Shape the future of Decentraland—each NAME grants you <b>100 Voting Power</b> when voting on DAO proposals. {link}"
+        "description": "Shape the future of Relic—each NAME grants you <b>100 Voting Power</b> when voting on DAO proposals. {link}"
       },
       "get_url": {
         "title": "A dedicated URL for your virtual spaces",
@@ -1666,7 +1666,7 @@
         "cta": "Browse Marketplace NAMEs"
       },
       "manage": {
-        "title": "Already have Decentraland NAMEs?",
+        "title": "Already have Relic NAMEs?",
         "cta": "Manage your names"
       }
     }

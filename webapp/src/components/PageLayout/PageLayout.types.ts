@@ -5,4 +5,4 @@ export type Props = {
   activeTab?: NavigationTab
   className?: string
   hideNavigation?: boolean
-} & React.PropsWithChildren<React.ReactNode>
+} & React.PropsWithChildren<{}>

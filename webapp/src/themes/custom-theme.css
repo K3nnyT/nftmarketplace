@@ -1,0 +1,14 @@
+:root {
+    /* Global */
+    --background: #0C0C0C;
+    --primary: #YOUR_PRIMARY_COLOR;
+    --secondary: #YOUR_SECONDARY_COLOR;
+
+    /* Text */
+    --text: #f2f2f2;
+    --secondary-text: #E8c5ac;
+
+    /* UI */
+    --card: #ef4b3c;
+    /* Add other color overrides as needed */
+  }

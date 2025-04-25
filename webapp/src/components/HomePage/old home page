@@ -1,0 +1,45 @@
+/*const sections: Partial<Record<View, Section>> = useMemo(
+    () => ({
+      [View.HOME_TRENDING_ITEMS]: Section.WEARABLES_TRENDING,
+      [View.HOME_NEW_ITEMS]: Section.WEARABLES,
+      [View.HOME_WEARABLES]: Section.WEARABLES,
+      [View.HOME_LAND]: Section.LAND,
+      [View.HOME_ENS]: Section.ENS
+    }),
+    []
+  )*/
+
+/*const assetTypes: Partial<Record<View, AssetType>> = useMemo(
+    () => ({
+      [View.HOME_TRENDING_ITEMS]: AssetType.ITEM,
+      [View.HOME_NEW_ITEMS]: AssetType.ITEM,
+      [View.HOME_SOLD_ITEMS]: AssetType.ITEM,
+      [View.HOME_WEARABLES]: AssetType.NFT,
+      [View.HOME_LAND]: AssetType.NFT,
+      [View.HOME_ENS]: AssetType.NFT
+    }),*/
+
+    /*  const sort: Partial<Record<View, SortBy>> = useMemo(
+    () => ({
+      [View.HOME_NEW_ITEMS]: SortBy.NEWEST,
+      [View.HOME_SOLD_ITEMS]: SortBy.RECENTLY_SOLD,
+      [View.HOME_WEARABLES]: SortBy.RECENTLY_LISTED,
+      [View.HOME_LAND]: SortBy.RECENTLY_LISTED,
+      [View.HOME_ENS]: SortBy.RECENTLY_LISTED
+    }),*/
+
+    /*return (
+    <PageLayout activeTab={NavigationTab.OVERVIEW}>
+      <ListsLaunchModal />
+      {isCampaignHomepageBannerEnabled ? <Banner id={MARKETPLACE_HOMEPAGE_BANNER_ID} /> : null}
+      <Page className="HomePage">
+        <AnalyticsVolumeDayData />
+        {firstViewsSection.map(renderSlideshow)}
+        <RankingsTable />
+        {secondViewsSection.map(renderSlideshow)}
+        <RecentlySoldTable />
+      </Page>
+      <BackToTopButton />
+    </PageLayout>
+  )
+}*/

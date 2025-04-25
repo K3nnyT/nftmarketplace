@@ -58,7 +58,7 @@
 }
 
 .claimNamePage .availableContainer {
-  background-color: rgba(32, 17, 22, 0.75);
+  background-color: rgba(2, 53, 29, 0.75);
   padding: 16px;
   border-radius: 4px;
   display: flex;
@@ -79,7 +79,7 @@
   align-items: center;
   height: 250px;
   border-radius: 8px;
-  background: linear-gradient(180deg, #ff2d55 0%, #c640cd 100%);
+  background: linear-gradient(180deg, #180253 0%, #c640cd 100%);
   flex: 1;
 }
 
@@ -88,7 +88,7 @@
   align-items: center;
   height: 250px;
   border-radius: 8px;
-  background: linear-gradient(244deg, #ff2d55 -11.67%, #ffbc5b 88.23%);
+  background: linear-gradient(244deg, #cac2c4 -11.67%, #38260c 88.23%);
   flex: 1;
 }
 
@@ -259,7 +259,7 @@
   bottom: 0;
   display: flex;
   align-items: center;
-  color: red; /* Suffix color */
+  color: rgb(47, 34, 163); /* Suffix color */
   background: white; /* Match input field background color */
   padding: 0 12px; /* Suffix padding */
   pointer-events: none; /* Ignore pointer events */
@@ -431,7 +431,7 @@
       #ffbc5bff 2%,
       #ffffff00 73%
     ),
-    linear-gradient(60deg, #ff2d55 18%, #c640cd 100%);
+    linear-gradient(60deg, #b8b8b8 18%, #c640cd 100%);
   z-index: -1;
   animation: rotate 4s linear infinite;
 }
